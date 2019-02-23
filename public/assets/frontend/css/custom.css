@@ -1,0 +1,162 @@
+//faqs css starts here
+.whiteBorderBottom {
+    border-bottom: 1px dashed #fff
+}
+
+#FAQ .plus {
+    cursor: pointer;
+    display: inline-block;
+    width: 5px
+}
+
+.answer {
+    width: 620px;
+    margin-left: 20px;
+    display: none
+}
+
+#FAQ {
+    margin-bottom: 59px;
+    padding-top: 40px;
+    padding-left: 102px;
+    color: #000000;
+}
+
+#FAQ h2 {
+    text-align: left;
+    margin-top: 0
+}
+
+#FAQ h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+
+#FAQ #question {
+    position: relative;
+    top: 100px;
+    float: right
+}
+
+#FAQ #question span {
+    cursor: pointer
+}
+
+#FAQ p a {
+    text-decoration: underline
+}
+.question .dashed {
+    border-bottom: 1px dashed #656565;
+    cursor: pointer
+}
+
+//testimonials css starts here
+.testimonial-bg{
+    color: white;
+}
+.testimonial{
+        margin: 0 15px;
+    }
+.testimonial .testimonial-profile{
+    float: left;
+    width: 27%;
+}
+.testimonial .testimonial-profile img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-content{
+    padding-left: 30%;
+}
+.testimonial .testimonial-title{
+    margin-bottom:0;
+}
+.testimonial .testimonial-title  span{
+    font-size:15px;
+    color: black;
+    letter-spacing:3px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom:4px;
+}
+.testimonial .testimonial-post{
+    display:block;
+    color: black;
+    margin-bottom:10px;
+}
+.testimonial .testimonial-post:after{
+    content:"";
+    width:100%;
+    display: block;
+    margin:10px 0 auto;
+    border-top:1px solid #9c9c9c;
+}
+.testimonial .testimonial-description{
+    color:black;
+    font-size: 14px;
+    line-height:23px;
+}
+    .owl-pagination{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:#3F4144;
+    border:3px solid #fff;
+}
+.testimonial-container{
+    padding-top: 41px;
+}
+@media only screen and (max-width: 767px) {
+    .testimonial{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .testimonial .testimonial-content{
+        padding: 0;
+    }
+    .testimonial .testimonial-profile{
+        float:none;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+//company css starts here
+.company-area{
+    padding-top: 79px ;
+}
+.company-content-1{
+    font-size: 29px;
+    text-align: center;
+    color: black;
+}
+.company-content-2{
+    margin-top: 30px;
+}
+.company-image{
+    padding-left: 54px;
+}
+   
+//privacy policy css starts here
+.section privacy{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.privacy1 h3{
+    color:black;
+}
+.privacy2 h3{
+    color: black;
+}
+.privacy2{
+    margin-top: 27px;
+}
+.privacy1-grid {
+    margin-top: 24px;
+}
+.privacy2-grid{
+    margin-top: 24px;
+}
