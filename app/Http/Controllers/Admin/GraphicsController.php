@@ -28,7 +28,7 @@ class GraphicsController extends \App\Http\Controllers\Controller
     {
         $title = "Graphics";
         
-        return view('Admin.Graphics.index')->with(compact('records', 'title'));
+        return view('Admin.Graphics.index')->with(compact('title'));
     }
     
     /**
